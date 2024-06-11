@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+.cabeca {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: rgb(187, 184, 184) solid 1px;
+    background-color: rgb(245, 243, 243);
+}
+#logo-busca {
+    display: flex;
+}
+.cabeca nav li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+}
+.cabeca nav li a {
+    color: #8b8a8a;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+.cabeca nav li a:hover {
+    color: rgb(216, 43, 43);
+    border-bottom: red solid 2px;
+}
+.busca {
+    background-repeat: no-repeat;
+    border: none;
+    width: 300px;
+    border-bottom: 1.5px solid black;
+    padding: 5px;
+}
+.fotos {
+
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.img {
+    margin: 0 auto;
+    display: flex;
+    width: 500px;
+    border-radius: 10px;
+}
+h2 {
+    color: #5c5b5b;
+}
+ul li {
+    color: #8b8a8a;
+    font-size: 14px;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-top: 10px;
+    list-style: none;
+    text-align: justify;
+
+}
+.saiba2 {
+
+    float: right;
+    padding: 9px;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 9px;
+    text-decoration: none;
+    font-size: 15px;
+
+
+}
+.saiba2 a {
+    text-decoration: none;
+    color: #fff;
+}
+.saiba2:hover {
+    cursor: pointer;
+    background-color: rgb(192, 25, 25);
+    transform: scale(1.09, 1.09);
+    opacity: 1;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.3);
+}
+.rodape {
+    background-color: rgb(230, 8, 8);
+    margin-top: 200px;
+    text-align: center;
+    height: 225px;
+
+}
+.rodape-logo {
+    padding-left: 100px;
+}
+.rodape-txt {
+    text-decoration: none;
+    font-size: 13px;
+}

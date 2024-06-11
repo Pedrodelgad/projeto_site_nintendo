@@ -1,0 +1,212 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+   
+}
+.cabeca {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: rgb(187, 184, 184) solid 1px;
+    background-color: rgb(245, 243, 243);
+}
+#logo-busca {
+    display: flex;
+}
+.cabeca nav li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+}
+.cabeca nav li a {
+    color: #8b8a8a;
+    text-decoration: none;
+    font-size: 17px;
+}
+.cabeca nav li a:hover {
+    color: rgb(216, 43, 43);
+    border-bottom: red solid 2px;
+}
+.busca {
+    background-repeat: no-repeat;
+    border: none;
+    width: 300px;
+    border-bottom: 1.5px solid black;
+    padding: 5px;
+}
+.sub_images {
+    text-align: center;
+}
+.slider-principal {
+    margin: 0 auto;
+    width: 95%;
+    position: absolute;
+}
+div .slider-principal {
+    border: red 4px solid;
+    border-radius: 9px;
+    z-index: 1;
+}
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    background-color: transparent;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-image: url(../images/imagens_complementares/anterior.png);
+    top: 48%;
+    left: 0;
+    position: absolute;
+}
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    background-color: transparent;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-image: url(imagens_complementares/proximo.png);
+    top: 48%;
+    position: absolute;
+    right: 0;
+}
+.slick-dots li button {
+    font-size: 0px;
+    border: 2px solid #fff;
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 45.7%;
+    top: 90%;
+}
+li.slick-active button {
+    background-color: red;
+}
+.slick-dots li {
+    display: inline-block;
+    padding-left: 10px;
+}
+.compras h1 {
+    font-size: 30px;
+    color: #5c5b5b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 20px;
+}
+.compras {
+    margin-top: 30px;
+    margin-left: 60px;
+    width: 60%;
+    display: inline-flex;
+}
+.saiba {
+    padding: 13px 20px;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 9px;
+    float: right;
+    text-decoration: none;
+}
+.saiba a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+.saiba:hover {
+    cursor: pointer;
+    background-color: rgb(192, 25, 25);
+    transform: scale(1.09, 1.09);
+    opacity: 1;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.3);
+}
+.titulo1 {
+    margin-top: 100px;
+    border-top: #cac8c8 solid 1px;
+    margin-bottom: 20px;
+    padding-left: 380px;
+    font-size: 30px;
+    color: #5c5b5b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 20px;
+}
+.titulo2 {
+    margin-top: 30px;
+    padding-left: 380px;
+    display: inline-flex;
+    font-size: 24px;
+    color: #5c5b5b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 20px;
+}
+.titulo3 {
+    margin-bottom: 20px;
+    padding-left: 380px;
+    margin-top: 50px;
+    font-size: 30px;
+    color: #5c5b5b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 20px;
+}
+.switch {
+
+    width: 1100px;
+    height: 455px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+.saiba2 {
+    padding: 13px 20px;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 9px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.saiba2 a {
+    text-decoration: none;
+    color: #fff;
+}
+.saiba2:hover {
+    cursor: pointer;
+    background-color: rgb(192, 25, 25);
+    transform: scale(1.09, 1.09);
+    opacity: 1;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.3);
+}
+
+.divison2 {
+    margin-bottom: 10px;
+    border-bottom: #cac8c8 solid 1px;
+}
+.loja-jogos img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 25px;
+    width: 1100px;
+}
+.rodape{
+    background-color: rgb(230, 8, 8);
+    margin-top: 200px;
+    text-align: center;
+}
+.rodape-logo{
+   padding-left: 100px;
+}
+
+.rodape-txt {
+    text-decoration: none;
+    font-size: 13px;
+}
